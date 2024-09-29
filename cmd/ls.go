@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println(utils.Hello())
+	directories := utils.GetCurrentDirectoryFiles()
+	fmt.Println(directories)
 }
