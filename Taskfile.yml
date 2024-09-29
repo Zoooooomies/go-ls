@@ -3,7 +3,7 @@ version: '3'
 tasks:
   build:
     cmds:
-      - go build ./cmd/ls.go 
+      - go build cmd/ls.go 
 
   run:
     cmds:
